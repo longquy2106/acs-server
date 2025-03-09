@@ -1,0 +1,7 @@
+SECRET_KEY = '7f8M}#P[|1=O'
+REFRESS_SECRET_KEY = 'Admin@123'
+PORT = 8082
+DOMAIN_WEB = 'https://dathen.saigonent.vn'
+DOMAIN_SERVER = 'https://dathen-api.saigonent.vn'
+ENDPOINT_HASURA = 'http://192.168.1.254:8088/v1/graphql'
+X_HASURA_ADMIN_SECRET = 'bD%96ePQ9a`C'

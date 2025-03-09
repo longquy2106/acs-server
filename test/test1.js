@@ -1,0 +1,1 @@
+function c(s){let d=0;let c=[];for(let i=0;i<s.length;i++){for(let j=i+1;j<s.length;j++){let a=s.substring(i,j);let b=a*a;if(s.includes(b)){if(a.length>d){d=a.length;c=[a,b];}}}}return c}let s="123456789";let[a,b]=c(s);console.log("a",a);console.log("b",b)
